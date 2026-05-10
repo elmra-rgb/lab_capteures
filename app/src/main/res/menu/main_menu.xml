@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_sensors_list"
+        android:title="Liste des capteurs"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_temperature"
+        android:title="Température"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_humidity"
+        android:title="Humidité"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_proximity"
+        android:title="Proximité"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_magnetic"
+        android:title="Champ Magnétique"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_accelerometer"
+        android:title="Accéléromètre"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_gravity"
+        android:title="Gravité"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_gyroscope"
+        android:title="Gyroscope"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_step_counter"
+        android:title="Compteur de pas"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_compass"
+        android:title="Boussole"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_activity_recognition"
+        android:title="Reconnaissance d'activité"
+        app:showAsAction="never" />
+
+</menu>

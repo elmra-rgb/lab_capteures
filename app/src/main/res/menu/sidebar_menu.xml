@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_catalogue"
+            android:icon="@drawable/ic_list"
+            android:title="📋 Catalogue des capteurs" />
+    </group>
+
+    <item android:title="🌡️ Capteurs environnementaux">
+        <menu>
+            <item
+                android:id="@+id/nav_temperature"
+                android:icon="@drawable/ic_temp"
+                android:title="Température" />
+            <item
+                android:id="@+id/nav_humidity"
+                android:icon="@drawable/ic_humidity"
+                android:title="Humidité" />
+            <item
+                android:id="@+id/nav_proximity"
+                android:icon="@drawable/ic_prox"
+                android:title="Proximité" />
+            <item
+                android:id="@+id/nav_magnetic"
+                android:icon="@drawable/ic_magnet"
+                android:title="Champ magnétique" />
+        </menu>
+    </item>
+
+    <item android:title="⚡ Capteurs de mouvement">
+        <menu>
+            <item
+                android:id="@+id/nav_accelerometer"
+                android:icon="@drawable/ic_move"
+                android:title="Accéléromètre" />
+            <item
+                android:id="@+id/nav_gravity"
+                android:icon="@drawable/ic_gravity"
+                android:title="Gravité" />
+            <item
+                android:id="@+id/nav_gyroscope"
+                android:icon="@drawable/ic_rotate"
+                android:title="Gyroscope" />
+        </menu>
+    </item>
+
+    <item android:title="📊 Fonctions avancées">
+        <menu>
+            <item
+                android:id="@+id/nav_stepcounter"
+                android:icon="@drawable/ic_steps"
+                android:title="Compteur de pas" />
+            <item
+                android:id="@+id/nav_compass"
+                android:icon="@drawable/ic_compass"
+                android:title="Boussole" />
+            <item
+                android:id="@+id/nav_activity"
+                android:icon="@drawable/ic_activity"
+                android:title="Reconnaissance d'activité" />
+        </menu>
+    </item>
+
+</menu>
